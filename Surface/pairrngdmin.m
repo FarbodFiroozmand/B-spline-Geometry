@@ -1,13 +1,13 @@
-% This function pairs the shape (basis) function values with  its domain.
-% It takes two 3d matrices of shape function values and knots, knot vector,
-% and the polynomial degree (shapeFuncDg) as inputs, and returns
-% the basis function values (shapeFuncVals) and returns four outputs, among
-% which two are 2d matrices of the same shape function values and knot
-% values, and the other two are the same matrices without zero-valued rows.
+% This function pairs the shape (basis) function values with their domain.
+% It takes two 3d matrices of shape function values and knots, a knot vector,
+% and the polynomial degree (shapeFuncDg) as inputs, and returns four outputs,
+% among which two are 2d matrices of the shape function values and their 
+% corresponding knot values, and the other two are the same matrices without
+% zero-valued rows.
 %
 % INPUTS:
-%   sfv - A 3d matrix comprising shape function values 
-%   ksi - A 3d matrix containing the knot values.
+%   shapeFuncVals - A 3d matrix comprising shape function values 
+%   pKsi - A 3d matrix containing the knot values.
 %   knotVector  - A vector containing the knots for the B-spline.
 %   shapeFuncDg - An integer specifying the polynomial degree of the B-spline.
 %
