@@ -3,7 +3,7 @@
 % (or basis) function values.
 %
 % INPUTS:
-%   cPts - A real-valued 3D vector containing all the necessary control points.
+%   cPts - A real-valued 3d vector containing all the necessary control points.
 %   shapeFuncs - A real-valued vector containg the shape function values.
 % OUTPUTS:
 %   bspln - The computed points on the B-spline curve.
