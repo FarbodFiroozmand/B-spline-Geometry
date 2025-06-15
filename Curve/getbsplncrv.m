@@ -1,9 +1,9 @@
-% This functions approximates a B-spline curve by computing enough number 
+% This function approximates a B-spline curve by computing sufficient number 
 % of points on the ideal curve using control points (cPts) and the shape
 % (or basis) function values.
 %
 % INPUTS:
-%   cPts - A real-valued 3-d vector containing all the necessary control points.
+%   cPts - A real-valued 3D vector containing all the necessary control points.
 %   shapeFuncs - A real-valued vector containg the shape function values.
 % OUTPUTS:
 %   bspln - The computed points on the B-spline curve.
