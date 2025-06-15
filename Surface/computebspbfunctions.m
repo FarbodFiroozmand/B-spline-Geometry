@@ -11,7 +11,7 @@
 %   shapeFuncVals - The computed shape (basis) function values.
 %   ksi - A vector containing 100 values in each interval of the original knot vector.
 %
-% Example :
+% Example:
 %   [shapeFuncVals, ksi] = computebspbfunctions(knotVector, shapeFuncDg);
 function [shapeFuncVals, ksi] = computebspbfunctions(knotVector, shapeFuncDg)
     nShapeFunc = length(knotVector);    % Stores the number of shape functions.
