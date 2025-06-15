@@ -1,7 +1,7 @@
 % This function computes the shape (basis) function values for a B-spline.
 % It takes a set of knots (knotVector) and the polynomial degree (shapeFuncDg) 
 % as inputs, and returns the basis function values (shapeFuncVals) and a 
-% knot vector (ksi) containing 100 values in each interval.
+% knot vector (ksi) with 100 values in each interval.
 %
 % INPUTS:
 %   knotVector  - A vector containing the knot values for the B-spline.
@@ -9,7 +9,7 @@
 %
 % OUTPUTS:
 %   shapeFuncVals - The computed shape (basis) function values.
-%   ksi - A vector containing 100 values in each interval of the original knot vector.
+%   ksi - A vector with 100 values in each interval of the original knot vector.
 %
 % Example :
 %   [shapeFuncVals, ksi] = computebspbfunctions(knotVector, shapeFuncDg);
