@@ -1,6 +1,6 @@
-% This script plots a random B-splines of degree 3 with a knot vector
-% of knotVector = [0,0,0,0.33,0.66,1,1,1] and random control points.
-% This script also plots the shape functions of such an B-spline. 
+% This script plots a random B-spline of degree 3 with the knot vector
+% [0,0,0,0.33,0.66,1,1,1] and randomly generated control points.
+% Also plots the corresponding basis functions of the B-spline. 
 clc; clear; close all;
 %% Inputs
 knotVector = [0,0,0,0.33,0.66,1,1,1];
