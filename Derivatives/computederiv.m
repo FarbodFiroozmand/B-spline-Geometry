@@ -1,17 +1,17 @@
-% This function computes the shape (basis) function values for a B-spline.
-% It takes a set of knots (knotVector) and the polynomial degree (shapeFuncDg) 
-% as inputs, and returns the basis function values (shapeFuncVals) and a 
-% knot vector (ksi) containing 100 values in each interval.
+% This function computes the derivative of B-spline shape (basis) functions.
+% It takes the polynomial degree (shapeFuncDg), the order of the derivative
+% and a set of knots (knotVector) as inputs, and returns the values of the derivative of 
+% basis functions.
 %
 % INPUTS:
-%   knotVector  - A vector containing the knot values for the B-spline.
-%   shapeFuncDg - An integer specifying the polynomial degree of the B-spline.
+%   degree  - An integer defining the polynomial degree of the B-spline.
+%   order - An integer defining the order of the derivative
+%   knotVec - An array allocated to the knot vector
 %
 % OUTPUTS:
-%   shapeFuncVals - The computed shape (basis) function values.
-%   ksi - A vector containing 100 values in each interval of the original knot vector.
+%   derivShapeFunction - A 2d matrix each row of which represents the derivative of a shape function.
 %
-% Example :
+% Example:
 %   derivShapeFunction = computederiv(degree, order, knotVec);
 function derivShapeFunction = computederiv(degree, order, knotVec)
     if order == 1 
