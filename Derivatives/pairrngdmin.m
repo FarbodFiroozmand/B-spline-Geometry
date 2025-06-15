@@ -1,9 +1,9 @@
-% This function pairs the shape (basis) function values with  its domain.
-% It takes two 3d matrices of shape function values and knots, knot vector,
-% and the polynomial degree (shapeFuncDg) as inputs, and returns
-% the basis function values (shapeFuncVals) and returns four outputs, among
-% which two are 2d matrices of the same shape function values and knot
-% values, and the other two are the same matrices without zero-valued rows.
+% This function pairs the shape (basis) function values with their domain.
+% It takes two 3d matrices of shape function values and knots, a knot vector,
+% and the polynomial degree (shapeFuncDg) as inputs, and returns four outputs,
+% among which two are 2d matrices of the shape function values and their 
+% corresponding knot values, and the other two are the same matrices without
+% zero-valued rows.
 %
 % INPUTS:
 %   shapeFuncVals - A 3d matrix comprising shape function values 
