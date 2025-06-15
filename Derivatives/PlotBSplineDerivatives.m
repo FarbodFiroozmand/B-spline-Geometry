@@ -1,4 +1,4 @@
-% This script plots the derivatives of the shapes functions of the B-splines. 
+% Plots the derivatives of the shape functions of the B-splines. 
 clc; clear; close all;
 %% Inputs
 knotVector = [0,0,0,0,0,0.25,0.25,0.5,0.75,1,1,1,1,1];
