@@ -1,4 +1,4 @@
-% This functions approximates a B-spline surface by computing enough number 
+% This functions approximates a B-spline surface by computing sufficient number 
 % of points on the ideal surface using control points (cpts) and the shape
 % (or basis) function values.
 %
